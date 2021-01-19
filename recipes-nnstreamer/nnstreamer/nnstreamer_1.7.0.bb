@@ -22,6 +22,7 @@ DEPENDS += "\
 SRC_URI = "\
         git://github.com/nnstreamer/nnstreamer.git;branch=main;protocol=https \
         file://0001-Disable-flatbuf-check-for-tf-lite-for-yocto-build.patch \
+        file://0001-test-SSAT-Adjust-tensor_rate-ssat-test-for-yocto.patch \
         "
 
 PV = "1.7.0+git${SRCPV}"
